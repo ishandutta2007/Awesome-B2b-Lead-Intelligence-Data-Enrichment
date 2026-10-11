@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment?style=social" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment?style=social" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment/fork"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment?style=social" alt="GitHub Forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment?color=blue" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -67,7 +67,7 @@ Welcome to the ultimate curated directory of **B2B lead intelligence and data en
 
 ## 🔓 Open-Source GitHub Projects
 
-*Ranked by GitHub Stars Count (Descending)* 🌟
+*Ranked by GitHub_Stars_Count (Descending)* 🌟
 
 - **[omkarcloud/google-maps-scraper](https://github.com/omkarcloud/google-maps-scraper)** [![Stars](https://img.shields.io/github/stars/omkarcloud/google-maps-scraper?style=social&color=white)](https://github.com/omkarcloud/google-maps-scraper/stargazers)  
   **Google Maps Scraper & B2B Local Business Lead Generation Tool**, MIT licensed. **Extracts 50+ data points** including business emails, phone numbers, addresses, ratings, and social profiles. Features automated website crawling for email/phone discovery, API access, CSV/JSON export, and zero recurring fees. Ideal for local B2B prospecting and market research at scale. 🗺️
@@ -137,7 +137,7 @@ Contributions are welcome! Follow these steps to submit new B2B lead intelligenc
 
 1. 🍴 **Fork** the repository.
 2. 📝 **Add/edit** entries in `README.md` maintaining table/list structure, accurate pricing/limits, and star ranking.
-3. 🔗 Include project title, official website/GitHub link, exact star badge, license, and brief description.
+3. 🔗 Include project title, official website/GitHub link, exact Stars_Badge, license, and brief description.
 4. 🚀 Submit a **Pull Request** with a descriptive summary of your changes.
 
 ---
