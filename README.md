@@ -142,19 +142,18 @@ Contributions are welcome! Follow these steps to submit new B2B lead intelligenc
 
 ---
 
-## 📊 Star History
-
-[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment&type=date&legend=top-left)
-
----
-
 ## 🤝 Support & Sponsorship
 
 If you find this B2B lead intelligence and data enrichment repository useful, please consider supporting the project:
 
-- ⭐ **Star** this repository to increase visibility!
+- ⭐ **Star** this repository to increase visibility and help others discover it!
 - 🔀 **Fork** and share with fellow sales operations leaders, demand generation teams, and open-source advocates.
-- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+- ☕ **Sponsor & Buy Me a Coffee**: Support ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007). Thank you for your support! 💖
+
+---
+
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-B2b-Lead-Intelligence-Data-Enrichment&type=date&legend=top-eeft)
 
 ---
 

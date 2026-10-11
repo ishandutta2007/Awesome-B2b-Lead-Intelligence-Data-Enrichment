@@ -1,0 +1,176 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0d1527"/>
+      <stop offset="100%" stop-color="#070a14"/>
+    </linearGradient>
+
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+
+    <linearGradient id="accentGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="pillGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#c084fc" stop-opacity="0.8"/>
+    </linearGradient>
+
+    <!-- Background Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.75" stroke-opacity="0.5"/>
+    </pattern>
+
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes pulseOrb {
+      0%, 100% { transform: scale(1) translate(0px, 0px); opacity: 0.25; }
+      50% { transform: scale(1.15) translate(15px, -10px); opacity: 0.45; }
+    }
+    @keyframes flowLine {
+      0% { stroke-dashoffset: 400; }
+      100% { stroke-dashoffset: 0; }
+    }
+    @keyframes floatPill {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    .orb-anim1 {
+      animation: pulseOrb 8s ease-in-out infinite;
+      transform-origin: 200px 100px;
+    }
+    .orb-anim2 {
+      animation: pulseOrb 10s ease-in-out infinite reverse;
+      transform-origin: 1000px 250px;
+    }
+    .flowing-data-path {
+      stroke-dasharray: 20, 15;
+      animation: flowLine 16s linear infinite;
+    }
+    .card-float {
+      animation: floatPill 5s ease-in-out infinite;
+    }
+    .title-font {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .sub-font {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      letter-spacing: 0.2px;
+    }
+  </style>
+
+  <!-- Deep Canvas Base -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGradient)"/>
+  <rect width="1200" height="360" rx="16" fill="url(#grid)"/>
+
+  <!-- Background Animated Glowing Orbs (Strictly in Background) -->
+  <g opacity="0.3">
+    <circle class="orb-anim1" cx="180" cy="90" r="140" fill="#0284c7" filter="blur(50px)"/>
+    <circle class="orb-anim2" cx="1020" cy="240" r="160" fill="#7c3aed" filter="blur(60px)"/>
+    <circle cx="600" cy="30" r="100" fill="#0d9488" filter="blur(45px)" opacity="0.15"/>
+  </g>
+
+  <!-- Dynamic Network Circuit / Waterfalls in Subtle Background -->
+  <g opacity="0.25">
+    <path class="flowing-data-path" d="M -50 80 Q 300 20 600 80 T 1250 80" fill="none" stroke="#38bdf8" stroke-width="2"/>
+    <path class="flowing-data-path" d="M -50 280 Q 300 340 600 280 T 1250 280" fill="none" stroke="#a855f7" stroke-width="2"/>
+    <circle cx="300" cy="50" r="3" fill="#38bdf8"/>
+    <circle cx="600" cy="80" r="4" fill="#818cf8"/>
+    <circle cx="900" cy="50" r="3" fill="#c084fc"/>
+    <circle cx="350" cy="310" r="3" fill="#34d399"/>
+    <circle cx="850" cy="310" r="4" fill="#a855f7"/>
+  </g>
+
+  <!-- Foreground Central Typography Block (High Contrast, Never Obscured) -->
+  <g filter="url(#shadow)">
+    <!-- Category Badge -->
+    <g transform="translate(450, 36)">
+      <rect width="300" height="30" rx="15" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <text x="150" y="20" text-anchor="middle" fill="#38bdf8" class="title-font" font-size="12" font-weight="700" letter-spacing="1.5">
+        ⚡ CURATED ECOSYSTEM DIRECTORY
+      </text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="125" text-anchor="middle" fill="url(#primaryTextGrad)" class="title-font" font-size="44">
+      B2B Lead Intelligence &amp; Data Enrichment
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="165" text-anchor="middle" fill="#94a3b8" class="sub-font" font-size="18">
+      Contact Discovery • Waterfall Pipelines • Firmographics • Autonomous Agents
+    </text>
+
+    <text x="600" y="195" text-anchor="middle" fill="#64748b" class="sub-font" font-size="14">
+      Comparing Enterprise Commercial SaaS vs. Self-Hosted Open-Source Alternatives
+    </text>
+  </g>
+
+  <!-- Decorative Feature Badges / Pills (Placed at Bottom Safe Zone) -->
+  <g class="card-float" transform="translate(0, 235)">
+    <!-- Pill 1 -->
+    <g transform="translate(140, 0)">
+      <rect width="180" height="42" rx="21" fill="url(#pillGrad1)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="90" y="26" text-anchor="middle" fill="#e0f2fe" class="title-font" font-size="13">
+        🎯 Verified Contacts
+      </text>
+    </g>
+
+    <!-- Pill 2 -->
+    <g transform="translate(340, 0)">
+      <rect width="240" height="42" rx="21" fill="url(#pillGrad2)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="120" y="26" text-anchor="middle" fill="#ede9fe" class="title-font" font-size="13">
+        🌊 Waterfall Enrichment
+      </text>
+    </g>
+
+    <!-- Pill 3 -->
+    <g transform="translate(600, 0)">
+      <rect width="210" height="42" rx="21" fill="url(#pillGrad3)" stroke="#34d399" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="105" y="26" text-anchor="middle" fill="#d1fae5" class="title-font" font-size="13">
+        🤖 Autonomous Agents
+      </text>
+    </g>
+
+    <!-- Pill 4 -->
+    <g transform="translate(830, 0)">
+      <rect width="230" height="42" rx="21" fill="url(#pillGrad1)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4"/>
+      <text x="115" y="26" text-anchor="middle" fill="#e0f2fe" class="title-font" font-size="13">
+        🔓 Open-Source Engines
+      </text>
+    </g>
+  </g>
+
+  <!-- Footer Brand Accent Line -->
+  <rect x="250" y="325" width="700" height="2" rx="1" fill="url(#lineGrad)"/>
+</svg>
